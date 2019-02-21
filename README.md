@@ -4,7 +4,7 @@ Projeto teste do desafio para vagas de SW CERTI
 
 ### Texto do desafio
 
-> Crie um servidor HTTP que, para cada requisição GET, retorne um JSON cuja chave
+> Na linguagem de sua preferência, crie um servidor HTTP que, para cada requisição GET, retorne um JSON cuja chave
 > `extenso` seja a versão por extenso do número inteiro enviado no path. Os números
 > podem estar no intervalo [-99999, 99999].
 >
@@ -22,15 +22,16 @@ Projeto teste do desafio para vagas de SW CERTI
 > { "extenso": "noventa e quatro mil e quinhentos e oitenta e sete" }
 > ```
 >
-> Nos mande o link do repositório no GitHub com o código.
+> Nos mande o link do repositório no GitHub com o código. Não esqueça do README.md com as instruções para rodar o servidor!
 >
-> Não esqueça do README.md com as instruções para rodar o servidor!
+> Em caso de dúvidas sobre o desafio, mande um email para ept@certi.org.br e mzr@certi.org.br.
 >
 > *Bônus*: No GitHub, abra um Pull Request com seu código. Isso facilita nossa revisão.
 >
 > *Bônus*: Crie um ambiente Docker para que possamos rodar seu servidor sem instalar
 > dependências locais.
 
+## Para rodar os testes:
 
 ### Ambiente
 - Python 3

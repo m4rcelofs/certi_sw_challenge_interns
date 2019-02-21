@@ -6,6 +6,7 @@ const table = test.each`
   ${12}  | ${'doze'}
   ${13}  | ${'treze'}
   ${14}  | ${'catorze'} 
+  ${14}  | ${'quatorze'} 
   ${15}  | ${'quinze'}
   ${16}  | ${'dezesseis'}
   ${17}  | ${'dezessete'}
