@@ -5,12 +5,12 @@ import subprocess
 import sys
 
 PROJECT_HOME = os.path.dirname(os.path.abspath(__file__))
-IMG_TAG = "certi_sw_challenge:1.0.0"
+IMG_TAG = "certi_sw_challenge_tests:1.0.0"
 
 
 def build():
     print(">>>>>>>>>> Building <<<<<<<<<<")
-    command = "docker build -t " + IMG_TAG + " " + PROJECT_HOME
+    command = "docker build -t " + IMG_TAG + " -f " + os.path.join(PROJECT_HOME, "Dockerfile.tests") + " ."
     print(command)
     return subprocess.call(command, shell=True)
 

@@ -38,7 +38,21 @@ Projeto teste do desafio para vagas de SW CERTI
 - Docker
 
 ### Como rodar
+Clone o repositório:
 ```
 git clone ssh://git@bitbucket-cdm.certi.org.br:7999/~mzr/sw_challenge_interns.git
-python3 test.py http://host:port
+cd sw_challenge_interns
+```
+
+Faça a instalação e rode o servidor do candidato em um novo ambiente:
+```
+ python3 createenv.py <port>               # default, ubuntu + git, abre porta do parâmetro
+ python3 createenv.py <port> <image:tag>   # imagem diferente, p.ex. node:10
+ git clone <git://repo>
+ <seguir instruções do candidato e rodar o servidor>
+```
+
+Em outro terminal, execute os testes:
+```
+python3 test.py http://<host>:<port>
 ```
