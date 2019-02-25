@@ -22,11 +22,15 @@ Projeto teste do desafio para vagas de SW CERTI
 > { "extenso": "noventa e quatro mil e quinhentos e oitenta e sete" }
 > ```
 >
-> Nos mande o link do repositório no GitHub com o código. Não esqueça do README.md com as instruções para rodar o servidor!
+> - Nos mande o link do repositório no GitHub com o código. 
+> - Não esqueça do README.md com as instruções para rodar o servidor!
+> - Não esqueça dos "e"s separando milhares, centenas e dezenas (vide exemplo).
+> - É esperado que o código implemente o algoritmo.
+> - Mesmo que não esteja com a lógica completa, nos envie o que conseguiu fazer até o momento.
 >
 > Em caso de dúvidas sobre o desafio, mande um email para ept@certi.org.br e mzr@certi.org.br.
 >
-> *Bônus*: No GitHub, abra um Pull Request com seu código. Isso facilita nossa revisão.
+> *Bônus*: No GitHub, abra um Pull Request com seu código (p.ex. do seu branch de desenvolvimento para o master). Isso facilita nossa revisão.
 >
 > *Bônus*: Crie um ambiente Docker para que possamos rodar seu servidor sem instalar
 > dependências locais.
@@ -56,3 +60,32 @@ Em outro terminal, execute os testes:
 ```
 python3 test.py http://<host>:<port>
 ```
+
+### Avaliação:
+[ ] Fez o código em outro branch e abriu Pull Request?
+
+[ ] README é útil?
+
+[ ] Usou o docker?
+
+[ ] Fez testes unitários?
+
+[ ] Como está a qualidade dos commits?
+
+[ ] % de testes com sucesso
+
+[ ] Usou bibliotecas como cheat?
+
+#### Qualidade do código:
+
+[ ] Estrutura
+
+[ ] Validações de range
+
+[ ] Idioma
+
+[ ] Comentários
+
+[ ] Repetições
+
+

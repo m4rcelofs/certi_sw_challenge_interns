@@ -2,7 +2,6 @@ const { verify, verifyNegative } = require('../utils/agent');
 
 const table = test.each`
   number | text
-  ${0}   | ${'zero'} 
   ${1}   | ${'um'}
   ${2}   | ${'dois'}
   ${3}   | ${'tres'}

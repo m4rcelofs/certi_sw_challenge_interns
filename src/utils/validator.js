@@ -3,9 +3,14 @@ const { normalize } = require('./normalizer');
 const toBeProperJson = response => JSON.parse(response.text);
 
 const toHaveProperText = text => response => {
-  const str = normalize(response.body.extenso);
+  const key = 'extenso';
+  const responseText = response.body[key] || JSON.parse(response.text)[key];
+  if (!responseText) {
+    throw new Error(`Unexpected response for ${text}: \n ${response.text}`);
+  }
+  const str = normalize(responseText);
   if (str !== normalize(text)) {
-    throw new Error(`"${response.body.extenso}"`);
+    throw new Error(`Wrong response for "${text}": "${responseText}"`);
   }
 };
 

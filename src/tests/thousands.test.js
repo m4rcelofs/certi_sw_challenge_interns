@@ -51,11 +51,11 @@ const table = test.each`
   ${20228} | ${'vinte mil e duzentos e vinte e oito'}
   ${30337} | ${'trinta mil e trezentos e trinta e sete'}
   ${40446} | ${'quarenta mil e quatrocentos e quarenta e seis'}
-  ${50555} | ${'quinhentos mil e quinhentos e cinquenta e cinco'}
+  ${50555} | ${'cinquenta mil e quinhentos e cinquenta e cinco'}
 
   ${61664} | ${'sessenta e um mil e seiscentos e sessenta e quatro'}
   ${72773} | ${'setenta e dois mil e setecentos e setenta e tres'} 
-  ${83882} | ${'oitenta e tres mil e oitocentoe e oitenta e dois'}
+  ${83882} | ${'oitenta e tres mil e oitocentos e oitenta e dois'}
   ${95991} | ${'noventa e cinco mil e novecentos e noventa e um'}
   ${99999} | ${'noventa e nove mil e novecentos e noventa e nove'}
 `;
