@@ -1,0 +1,12 @@
+{
+  "name": "sw_challenge_interns",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "supertest": "^3.4.2"
+  }
+}
