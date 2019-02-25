@@ -29,7 +29,7 @@ const table = test.each`
   ${555} | ${'quinhentos e cinquenta e cinco'}
   ${664} | ${'seiscentos e sessenta e quatro'}
   ${773} | ${'setecentos e setenta e tres'} 
-  ${882} | ${'oitocentoe e oitenta e dois'}
+  ${882} | ${'oitocentos e oitenta e dois'}
   ${991} | ${'novecentos e noventa e um'}
 `;
 
