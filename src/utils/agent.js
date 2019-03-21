@@ -12,7 +12,7 @@ const verify = async ({ number, text }) => agent
 
 const verifyNegative = async ({ number, text }) => verify({
   number: number * -1,
-  text: `menos ${text}`,
+  text: text.split('|').map(t => `menos ${t}`).join('|'),
 });
 
 const verifyGracefulError = async ({ number }) => agent

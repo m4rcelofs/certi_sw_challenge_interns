@@ -9,8 +9,9 @@ const toHaveProperText = text => response => {
     throw new Error(`Unexpected response for ${text}: \n ${response.text}`);
   }
   const str = normalize(responseText);
-  if (str !== normalize(text)) {
-    throw new Error(`Wrong response for "${text}": "${responseText}"`);
+  const acceptedAlternatives = text.split('|').map(normalize);
+  if (!acceptedAlternatives.includes(str)) {
+    throw new Error(`Wrong response for "${acceptedAlternatives}": "${responseText}"`);
   }
 };
 

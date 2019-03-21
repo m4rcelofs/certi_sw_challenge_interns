@@ -5,8 +5,7 @@ const table = test.each`
   ${11}  | ${'onze'}
   ${12}  | ${'doze'}
   ${13}  | ${'treze'}
-  ${14}  | ${'catorze'} 
-  ${14}  | ${'quatorze'} 
+  ${14}  | ${'catorze|quatorze'}
   ${15}  | ${'quinze'}
   ${16}  | ${'dezesseis'}
   ${17}  | ${'dezessete'}
