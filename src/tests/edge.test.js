@@ -3,7 +3,8 @@ const { verify } = require('../utils/agent');
 const table = test.each`
   number       | text
   ${0}         | ${'zero'}
-  ${-0}        | ${'zero'} 
+  ${'-0'}      | ${'zero|menos zero'}
+  ${'00000'}   | ${'zero'} 
   ${'0001'}    | ${'um'}
   ${'   0105'} | ${'cento e cinco'}
   ${'0105   '} | ${'cento e cinco'}
