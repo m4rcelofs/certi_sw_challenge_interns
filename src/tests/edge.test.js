@@ -4,6 +4,7 @@ const table = test.each`
   number       | text
   ${0}         | ${'zero'}
   ${'-0'}      | ${'zero|menos zero'}
+  ${'-0222'}   | ${'menos duzentos e vinte e dois'}
   ${'00000'}   | ${'zero'} 
   ${'0001'}    | ${'um'}
   ${'   0105'} | ${'cento e cinco'}
