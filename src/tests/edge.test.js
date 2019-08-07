@@ -5,6 +5,8 @@ const table = test.each`
   ${0}         | ${'zero'}
   ${'-0'}      | ${'zero|menos zero'}
   ${'-0222'}   | ${'menos duzentos e vinte e dois'}
+  ${'+0222'}   | ${'duzentos e vinte e dois'}
+  ${'+222'}    | ${'duzentos e vinte e dois'}
   ${'00000'}   | ${'zero'} 
   ${'0001'}    | ${'um'}
   ${'   0105'} | ${'cento e cinco'}
