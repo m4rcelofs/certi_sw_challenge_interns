@@ -4,9 +4,9 @@ Projeto teste do desafio para vagas de SW CERTI
 
 ### Texto do desafio
 
-> Na linguagem de sua preferência, crie um servidor HTTP que, para cada requisição GET, retorne um JSON cuja chave
-> `extenso` seja a versão por extenso do número inteiro enviado no path. Os números
-> podem estar no intervalo [-99999, 99999].
+> Na linguagem de sua preferência, crie um servidor HTTP que, para cada requisição GET, retorne
+> como resposta um JSON cuja chave `extenso` seja a versão por extenso do número inteiro enviado no path.
+> Os números podem estar no intervalo [-99999, 99999].
 >
 > Exemplos:
 > ```
